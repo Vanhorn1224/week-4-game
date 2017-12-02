@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<title>Crystal Collector Game</title>
+</head>
+<body>
+	<h1>Crystal Collector</h1>
+	
+	<div class="instructions">
+		<p>Each crystal has a random value</p>
+		<p>Try clicking on the crystal to gain exact amount of points</p>
+		<p>Your goal is to equal the "Number to get"</p>
+	</div>
+
+	<div class="numberToGet">
+		<h2>Number to get:
+			<span id="randomNumber"></span>
+		</h2>
+	</div>
+
+	<div class="wins-losses">
+		<h2>
+			Wins:
+				<span id="numberWins"></span>
+			</br>
+			Losses:
+				<span id="numberLosses"></span>
+		</h2>
+	</div>
+
+	<div class="gems">
+		<img id="greenGem" src="https://vignette.wikia.nocookie.net/gemcrust/images/4/4e/Pyromorphite%27s_Gem.png/revision/	latest?cb=20161230164138">
+		<img id="redGem" src="https://vignette2.wikia.nocookie.net/steven-universe/images/b/b1/Ruby_Gem_Sardonyx_Room_Sardonyx_%28lights_on%29.png/revision/latest?cb=20160816175349">
+		<img id="blueGem" src="https://vignette.wikia.nocookie.net/steven-universe-roleplay/images/8/89/Alternate_Sapphire_Gem.png/revision/latest?cb=20161025004159">
+		<img id="purpleGem" src="https://vignette.wikia.nocookie.net/steven-universe/images/c/ca/Army_Amethyst_Gem.png/revision/latest?cb=20170201164422">
+	</div>
+
+	<div class="totalScore">
+		<h2>Your total score is:
+			<span id="finalScore"></span>
+		</h2>
+	</div>
+
+</body>
+</html>

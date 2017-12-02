@@ -1,0 +1,27 @@
+h1, h2, p {
+	text-align: center;
+	color: white;
+	font-family: Arial;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.gems {
+	margin: 0 auto;
+}
+
+#greenGem, #redGem, #blueGem, #purpleGem {
+	height: 150px;
+	width: 150px;
+	margin-left: 20px;
+}
+
+body {
+	background-color: green;
+}
